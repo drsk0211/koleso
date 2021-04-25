@@ -1,0 +1,122 @@
+.quest h3 {
+  font-size: 1.3em;
+}
+
+.quest {
+  padding-bottom: 20px;
+}
+
+#chartdiv {
+  width: 100%;
+  height: 600px;
+}
+
+
+
+.ui-state-active {
+  border: 1px solid #c5c5c5 !important;
+  background: #f6f6f6 !important;
+  font-weight: normal !important;
+  color: #454545 !important;
+}
+
+#custom-handle {
+  width: 1.7em;
+  height: 1.7em;
+  top: 50%;
+  margin-top: -.9em;
+  text-align: center;
+  line-height: 1.7em;
+  border-radius: 50px;
+  font-size: 30px;
+}
+
+.header{
+  font-size: 3em;
+  color: rgb(255, 255, 255);
+}
+
+.question{
+  font-size: 2em;
+  color: rgb(255, 255, 255);
+}
+
+.slide{
+  width: 1000px;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+html { overflow:  hidden; }
+
+body {
+
+  background: linear-gradient(to top left, #F6EFD2, #CEAD78);
+  background-repeat: no-repeat;
+  
+  /*background: url(/balloon-3206530_1920.jpg);
+  background-position: center center;*/
+}
+
+.cont {
+  width: 120px;
+  height: 120px;
+  display: inline;
+  transition: 0.5s linear;
+}
+
+.cont:hover {
+  color: azure;
+  border-color: azure !important;
+}
+
+ .text-b {
+   margin-top: 39%;
+ }
+
+ #slider {
+   width: 70%;
+ }
+
+ .itog p {
+  font-size: 1.8em;
+ }
+
+ #myChart {
+  margin-left: auto !important;
+  margin-right: auto !important;
+ }
+ 
+ .noUi-handle {
+   border-radius: 50px !important;
+ }
+
+ .noUi-tooltip {
+   border: 0px !important;
+   background: rgba(0, 0, 0, 0) !important;
+   font-size: 1.6em;
+   color: #343a40 !important;
+ }
+
+ @media (max-width: 899px) {
+  .itog p { font-size: 0.7rem; }
+  #myChart {
+    width: 300px  !important;
+    height: 300px !important;
+   }
+}
+
+@media (max-width: 899px) {
+  .itog p { font-size: 1.5rem !important; }
+  .header { font-size: 1.5rem !important; }
+  .question { font-size: 1.3rem; }
+  #myChart {
+    width: 300px  !important;
+    height: 300px !important;
+   }
+}

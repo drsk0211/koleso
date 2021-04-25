@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width; initial-scale=1">
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link href="/css/nouislider.min.css" rel="stylesheet">
+  <script src="js/nouislider.min.js"></script>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/Chart.min.js"></script>
+  <script src="js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.1.1/chart.min.js"
+    integrity="sha512-BqNYFBAzGfZDnIWSAEGZSD/QFKeVxms2dIBPfw11gZubWwKUjEgmFUtUls8vZ6xTRZN/jaXGHD/ZaxD9+fDo0A=="
+    crossorigin="anonymous"></script>
+  <title>Тест</title>
+</head>
+
+<body>
+ 
+  <div class="container">
+    <div class="row pt-5 header pb-5">
+      <div class="col-12 ">
+        <div class="header text-center text-dark">
+          <h1>Ответьте на несколько вопросов</h1>
+        </div>
+      </div>
+    </div>
+    <div class="row pt-1 q pb-5">
+      <div class="col-12 ">
+        <div class="text-center question text-dark"></div>
+      </div>
+    </div>
+    <div class="mb-4 mx-auto" id="slider">
+      <div id="slider-tooltips" class="ui-slider-handle"></div>
+    </div>
+    <div class="pt-4 row button">
+      <div class="cont border border-dark border-5 rounded-circle mx-auto align-middle text-center">
+        <div class="text-b">ПРОДОЛЖИТЬ</div></div>
+    </div>
+  </div>
+
+  <div class="container itog" style="display: none;">
+    <div class="row pt-5 text-center text-dark">
+      
+        <p>
+          Теперь посмотри, что у тебя вышло. Если получившаяся фигура близка к кругу, то поздравляю, это очень хорошо, в
+          твоей жизни должна преобладать гармония. Если ты видишь ямки, особенно глубокие, то это говорит о
+          необходимости изменений в указанных областях жизни. Придется покинуть зону комфорта и начать усердно
+          совершенствоваться!
+        </p>
+     
+    </div>
+  </div>
+
+  <div class="container pt-3">
+    <div class="mx-auto" id="canvas" width="400" height="400"><canvas id="myChart"></canvas></div>
+  </div>
+
+
+
+  <script>
+
+
+
+
+  </script>
+
+</body>
+
+</html>
