@@ -103,18 +103,12 @@ body {
    color: #343a40 !important;
  }
 
- @media (max-width: 899px) {
-  .itog p { font-size: 0.7rem; }
-  #myChart {
-    width: 300px  !important;
-    height: 300px !important;
-   }
-}
+
 
 @media (max-width: 899px) {
-  .itog p { font-size: 1.5rem !important; }
-  .header { font-size: 1.5rem !important; }
-  .question { font-size: 1.3rem; }
+  .itog p { font-size: 0.7rem !important; }
+  .header { font-size: 0.7rem !important; }
+  .question { font-size: 0.8rem; }
   #myChart {
     width: 300px  !important;
     height: 300px !important;
