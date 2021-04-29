@@ -14,9 +14,9 @@ window.onload = function () {
 
   $(".js-range-slider").ionRangeSlider({
     skin: "round",
-    min: 1,
+    min: 0,
     max: 10,
-    from: 5,
+    from: 0,
     onChange: function (data) {
       result[step] = data.from;
   },
