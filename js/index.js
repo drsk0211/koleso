@@ -12,7 +12,12 @@ window.onload = function () {
   let step = 0;
   let result = [];
 
-
+  $(".js-range-slider").ionRangeSlider({
+    skin: "round",
+    min: 1,
+    max: 10,
+    from: 5,
+});
 
 
 
@@ -21,7 +26,7 @@ window.onload = function () {
   }
   document.querySelector(".cont").onclick = function () {
     event.stopPropagation();
-    result[step] = slider.noUiSlider.get();
+    result[step] = $(".js-range-slider").data.slider;
     console.log(result);
     step++;
     showQuestion(step);
@@ -101,6 +106,7 @@ window.onload = function () {
     $(".header").hide();
     $("#slider").hide();
     $(".itog").show();
+    $(".slider").hide();
   }
 
 }
