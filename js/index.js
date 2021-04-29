@@ -17,6 +17,12 @@ window.onload = function () {
     min: 1,
     max: 10,
     from: 5,
+    onChange: function (data) {
+      result[step] = data.from;
+  },
+  onStart: function (data) {
+    result[step] = data.from;
+},
 });
 
 
@@ -26,7 +32,7 @@ window.onload = function () {
   }
   document.querySelector(".cont").onclick = function () {
     event.stopPropagation();
-    result[step] = $(".js-range-slider").data.slider;
+    //result[step] = $(".js-range-slider").ionRangeSlider.data.from;
     console.log(result);
     step++;
     showQuestion(step);
